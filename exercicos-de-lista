@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Atividade 1</h1>
+    <form id="todo-form">
+<input type="text" id="task-input" required>
+        <button type="submit">Adicionar</button>
+       <ul id="todo-list">
+        <li class="todo-item">
+            <span>fazer atividade</span>
+            <button>Deletar</button>
+        </li>
+        <li class="todo-item">
+            <span>fazer atividade</span>
+            
+            <button>Deletar</button>
+        </li>
+        <li class="button">
+        <span>fazer atividade</span>
+        <button>Deletar</button>
+        </li>
+       </ul>
+       
+       
+    </form>
+
+</body>
+<script src="script.js"></script>
+</html>
