@@ -33,3 +33,30 @@
 </body>
 <script src="script.js"></script>
 </html>
+
+STYLE.CSS
+
+body{
+    background-color: white;
+    color: black;
+}
+#todo-form{
+    display: flex;          /*isso serva para ativar o flexbox meu pofessor*/
+  align-items: center;         /*essa funçao ela serve para alinhar,meu pofessor*/
+  gap: 8px;                     /*essa funçao serve para dar um espaço entre o input eo botao meu professor*/
+  max-width: 500px;              /*essa funçao serve para dar a largura maxima*/
+  margin: 0 auto;               /*essa funçao centraliza a pagina meu pofessor*/
+
+}
+#todo-list{
+    
+}
+.todo-item{
+    background-color: white;
+}
+.button{
+    background-color: red;
+}
+h1{
+text-align: center                      ;
+}
